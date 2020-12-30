@@ -14,7 +14,7 @@ clearButton.addEventListener("click", clearCompletedToDoItems);
 
 function clearCompletedToDoItems() {
     alert("You have cleared all of the completed to do items!");
-    console.log("The items have been cleared. I'm lonely in here, come check the console more often!");
+    console.log("The items have been cleared. I'm lonely in here, come check the console more often! Please!");
 }
 
 var emptyButton = document.getElementById("empty-button");
