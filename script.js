@@ -103,6 +103,14 @@ function loadList() {
 
         }
     }
+    else {
+      var toDos = {
+            "task": "thing I need to do",
+            "completed": false
+      };
+
+}
+
 }
 
 loadList();
