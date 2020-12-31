@@ -76,6 +76,7 @@ function newToDoItem(itemText, completed) {
 
     toDoList.appendChild(toDoItem);
     toDoItem.addEventListener("dblclick", toggleToDoItemState);
+    saveList();
 }
 
 function addToDoItem() {

@@ -13,6 +13,18 @@ body {
     font-weight: 300;
 }
 
+.calculator-wrapper {
+    margin-top: 50px;
+    background-color: black;
+    border-style: double;
+    border-top: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+    
+}
+
 .todo-wrapper h2 {
     margin: 0;
 }
