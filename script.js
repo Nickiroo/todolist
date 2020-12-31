@@ -60,6 +60,8 @@ function saveList() {
 
 }
 
+
+
 //Making the to-do items
 var toDoEntryBox = document.getElementById("todo-entry-box");
 

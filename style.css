@@ -3,7 +3,7 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.todo-wrapper {
+.essentials-wrapper {
     margin-top: 50px;
     background-color: #fff;
     border-radius: 15px;
@@ -13,37 +13,21 @@ body {
     font-weight: 300;
 }
 
-.calculator-wrapper {
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-    font-weight: 300;
-
-}
-
-.calculator-wrapper h2 {
+.essentials-wrapper h2 {
     margin: 0;
 }
 
-
-.todo-wrapper h2 {
-    margin: 0;
-}
-
-.todo-wrapper p {
+.essentials-wrapper p {
     font-style: italic;
     color: #666;
     margin: 5px 0;
 }
 
-.todo-wrapper ol {
+.essentials-wrapper ol {
     margin: 20px 0;
 }
 
-.todo-wrapper ol li {
+.essentials-wrapper ol li {
     margin: 5px 0;
     padding: 3px;
     -webkit-user-select: none;
@@ -54,16 +38,16 @@ body {
     transition: all 0.5s ease-out;
 }
 
-.todo-wrapper ol li:nth-child(even) {
+.essentials-wrapper ol li:nth-child(even) {
     background: #ddd;
 }
 
-.todo-wrapper .completed {
+.essentials-wrapper .completed {
     text-decoration: line-through;
     color: #666;
 }
 
-.todo-wrapper .pretty-button {
+.essentials-wrapper .pretty-button {
     margin: 10px 2px;
     padding: 5px 20px;
     border-radius: 15px;
@@ -75,16 +59,16 @@ body {
     font-size: small;
 }
 
-.todo-wrapper .pretty-button:hover {
+.essentials-wrapper .pretty-button:hover {
     cursor: pointer;
     opacity: 0.75;
 }
 
-.todo-wrapper input {
+.essentials-wrapper input {
     padding: 3px 6px;
 }
 
-.todo-wrapper form {
+.essentials-wrapper form {
     display: inline-block;
 }
 
@@ -95,24 +79,24 @@ body {
     justify-content: space-around;
 }
 
-.todo-wrapper #clear-button {
+.essentials-wrapper #clear-button {
     background-color: #49B749;
 }
 
-.todo-wrapper #empty-button {
+.essentials-wrapper #empty-button {
     background-color: #9B1C20;
 }
 
-.todo-wrapper #save-button {
+.essentials-wrapper #save-button {
     background-color: #49B749;
 }
 
 @media only screen and (min-width: 1400px) {
-    .todo-wrapper {
+    .essentials-wrapper {
         width: 50%;
     }
 
-    .todo-wrapper input {
+    .essentials-wrapper input {
         width: 600px;
     }
     
@@ -120,11 +104,11 @@ body {
 
 
 @media only screen and (max-width: 1399px) and (min-width: 750px) {
-    .todo-wrapper {
+    .essentials-wrapper {
         width: 75%;
     }
 
-    .todo-wrapper input {
+    .essentials-wrapper input {
         width: 400px;
     }
 }
