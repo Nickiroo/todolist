@@ -109,7 +109,11 @@ function loadList() {
             "completed": false
       };
 
-}
+      for (var i = 0; i < toDos.length; i++) {
+         var toDo = toDos[i];
+         newToDoItem(toDo.task, toDo.completed);
+      }
+    }
 
 }
 
